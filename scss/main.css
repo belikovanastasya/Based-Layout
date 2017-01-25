@@ -52,6 +52,76 @@ ul li a:hover {
   margin-top: 10px;
   font-size: 15px; }
 
+.divider-1, .divider-2, .bl-1, .bl-2, .bl-3,
+.stars {
+  display: inline-block;
+  background: url("../img/sprite.png") no-repeat;
+  overflow: hidden;
+  text-indent: -9999px;
+  text-align: left; }
+
+.divider-1 {
+  background-position: -3px -0px;
+  width: 710px;
+  height: 46px; }
+
+.divider-2 {
+  background-position: -3px -49px;
+  width: 710px;
+  height: 26px; }
+
+.bl-1 {
+  background-position: -3px -78px;
+  width: 150px;
+  height: 108px; }
+
+.bl-2 {
+  background-position: -156px -78px;
+  width: 150px;
+  height: 108px; }
+
+.bl-3 {
+  background-position: -309px -78px;
+  width: 150px;
+  height: 108px; }
+
+.stars {
+  background-position: -462px -78px;
+  width: 47px;
+  height: 7px; }
+
+.about h2 {
+  margin-top: 72px;
+  margin-bottom: 37px;
+  color: #e74c3c;
+  font-family: "Open Sans", sans-serif;
+  font-size: 50px; }
+
+.about h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  margin-top: 42px; }
+
+.about p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px; }
+
+.about > p {
+  font-family: Georgia sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: italic; }
+
+.about h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600; }
+
+.wwdo {
+  margin-top: 70px; }
+
 @media (max-width: 1200px) {
   nav li {
     margin-left: 20px; } }
