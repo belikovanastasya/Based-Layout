@@ -410,7 +410,7 @@
         barBgColor: 'transparent', //unfilled bar color
         barColor: '#99CC33', //filled bar color , can be a range also having different colors on different value like {0 : "#ccc", 50 : '#333', 100: '#000'}
         format: null, //format indicator numbers, can be a # formator ex (##,###.##) or a function
-        frameTime: 40, //miliseconds to move from one frame to another
+        frameTime: 50, //miliseconds to move from one frame to another
         frameNum: null, //Defines numbers of frame in indicator, defaults to 100 when showing percentage and 500 for other values
         fontColor: null, //font color
         fontFamily: null, //defines font family

@@ -1,3 +1,11 @@
+
+$(function(){
+
+
+var marker = true;
+var startProc = $("#skills").scrollTop();
+function count(){
+
 $('#indicatorContainer-1').radialIndicator({
         barColor: '#e74c3c',
         barWidth:6,
@@ -51,3 +59,20 @@ var radialObj = $('#indicatorContainer-4').data('radialIndicator');
 //now you can use instance to call different method on the radial progress.
 //like
 radialObj.animate(89);
+marker = false;
+}
+
+
+
+$(window).on('scroll', function(){
+    if ($(window).scrollTop()> startProc){
+        if(marker){
+            count();
+        }
+    }
+
+
+})
+
+
+})
