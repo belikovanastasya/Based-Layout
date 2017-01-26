@@ -33,9 +33,11 @@ nav {
   float: left;
   padding-top: 15px; }
 
-ul li a:hover {
-  color: white;
-  text-decoration: none; }
+ul li a {
+  color: #5f758c; }
+  ul li a:hover {
+    color: white;
+    text-decoration: none; }
 
 .smallbtn {
   height: 46px;
@@ -122,6 +124,106 @@ ul li a:hover {
 .wwdo {
   margin-top: 70px; }
 
+.bigbtn {
+  height: 46px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  background: #e74c3c;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  text-align: center;
+  width: 220px;
+  margin-top: 78px;
+  font-size: 15px;
+  margin-bottom: 74px; }
+
+.skills {
+  height: 580px;
+  background: url(../img/content-2-bg.png);
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.indicatorContainerWrap {
+  position: relative;
+  display: inline-block; }
+
+.newsletter {
+  height: 100%;
+  background: #2c3e50;
+  padding-top: 30px;
+  padding-bottom: 60px; }
+  .newsletter h3 {
+    font-size: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300; }
+  .newsletter p {
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    margin-bottom: 26px; }
+  .newsletter .form {
+    padding-right: 0px;
+    padding-left: 0; }
+  .newsletter input {
+    width: 417px;
+    height: 46px;
+    padding: 16px;
+    margin-right: 14px; }
+  .newsletter button {
+    height: 46px;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    background: #e74c3c;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    width: 128px; }
+
+.team {
+  padding-bottom: 72px; }
+  .team h2 {
+    margin-top: 72px;
+    margin-bottom: 37px;
+    color: #e74c3c;
+    font-family: "Open Sans", sans-serif;
+    font-size: 50px; }
+  .team .divider-1 {
+    margin-bottom: 26px; }
+  .team p {
+    font-family: Georgia sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: italic; }
+  .team .teamphoto {
+    margin-top: 26px; }
+    .team .teamphoto h4 {
+      font-size: 20px;
+      font-weight: 600; }
+    .team .teamphoto p {
+      font-family: "Open Sans", sans-serif;
+      font-size: 15px;
+      color: #e74c3c;
+      font-style: normal; }
+
+.contact {
+  background: #2c3e50;
+  padding-bottom: 32px;
+  padding-top: 32px; }
+  .contact p {
+    color: white;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300; }
+  .contact ul {
+    list-style: none; }
+  .contact li {
+    display: inline-block;
+    margin-left: 40px; }
+
 @media (max-width: 1200px) {
   nav li {
     margin-left: 20px; } }
@@ -130,5 +232,11 @@ ul li a:hover {
     display: block;
     margin-left: 0;
     display: none; } }
+@media (max-width: 768px) {
+  .newsletter button {
+    margin-top: 15px; } }
+@media (max-width: 320px) {
+  .newsletter input {
+    width: 300px; } }
 
 /*# sourceMappingURL=main.css.map */

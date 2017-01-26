@@ -1,5 +1,6 @@
 $maincolor: #e74c3c;
 $fontcolor:#707070;
+$colorofancor:#5f758c;
 $mainbg: #2c3e50;
 $mainfont: 'Open Sans', sans-serif; 
 @mixin btn{
@@ -69,6 +70,9 @@ nav{
 
 
 	ul li a{
+			color: $colorofancor;
+
+
 			&:hover{
 				color:white;
 				text-decoration: none;
@@ -125,10 +129,119 @@ nav{
 	
 }
 
-
 .wwdo{
 	margin-top: 70px;
 }
+
+.bigbtn{
+	 @include btn;
+	 width: 220px;
+	 margin-top: 78px;
+	 font-size: 15px;
+	 margin-bottom: 74px;
+}
+
+.skills{
+
+	height: 580px;
+	background: url(../img/content-2-bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.indicatorContainerWrap{
+    position: relative;
+    display: inline-block;
+}
+
+.newsletter{
+	height: 100%;
+	background: $mainbg;
+	padding-top: 30px;
+	padding-bottom: 60px;	 
+	h3{
+		font-size: 30px;
+		font-family: $mainfont;
+		font-weight: 300;	
+	}
+	p{
+		font-size: 15px;
+		font-family: $mainfont;
+		font-weight: 300;
+		margin-bottom: 26px;	
+	}
+.form{
+	padding-right: 0px;
+	padding-left: 0;
+}
+
+	input{
+		width: 417px;
+		height: 46px;
+		padding: 16px;
+		margin-right: 14px;
+	}
+	button{
+		@include btn;
+		width: 128px;
+	}
+}
+
+.team{
+padding-bottom: 72px;
+
+	h2{
+		@include margin-h;
+	}
+	.divider-1{
+		margin-bottom: 26px;
+	}
+
+
+	p{
+		 font-family: Georgia sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: italic;
+	}
+	.teamphoto{
+		margin-top: 26px;
+
+		h4{
+			font-size: 20px;
+			font-weight: 600;
+		}
+		p{
+			font-family: $mainfont;
+			font-size: 15px;
+			color:$maincolor;
+			font-style: normal; 
+		}
+	}
+
+}
+
+.contact{
+	background: $mainbg;
+	padding-bottom: 32px;
+	padding-top: 32px;
+
+	p{
+		color: white;
+		font-size: 15px;
+		font-family: $mainfont;
+		font-weight: 300;
+
+	}
+
+ul{
+	list-style: none;
+}
+li{
+	display: inline-block;
+	margin-left: 40px;
+}
+}
+
 
  @media (max-width:1200px) {
 
@@ -147,3 +260,19 @@ nav li{
 }
 
 }   
+
+  @media (max-width:768px) {
+
+.newsletter button{
+	margin-top: 15px;
+}
+
+} 
+
+  @media (max-width:320px) {
+
+.newsletter input{
+	width: 300px;
+}
+
+} 
