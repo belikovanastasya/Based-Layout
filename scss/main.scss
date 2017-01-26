@@ -143,16 +143,38 @@ nav{
 
 .skills{
 
+	height: 100%;
+}
+
+.skills h2{
+	@include margin-h;
+	margin-top: 0;
+	padding-top: 72px;
+	color: white;
+}
+	.indicator{
+		margin-top: 70px;
+		p{
+			color: white;
+			text-transform: uppercase;
+			font-family: $mainfont;
+			font-size: 22px;
+			font-weight: 300;
+			margin-top: 26px;
+		}
+	}
+.parallax-window{
 	height: 580px;
-	background: url(../img/content-2-bg.png);
-	background-repeat: no-repeat;
-	background-position: center;
 }
 .indicatorContainerWrap{
     position: relative;
     display: inline-block;
 }
 
+
+.portfolio{
+	height: 400px;
+}
 .newsletter{
 	height: 100%;
 	background: $mainbg;
@@ -241,6 +263,9 @@ li{
 	margin-left: 40px;
 }
 }
+
+
+
 
 
  @media (max-width:1200px) {

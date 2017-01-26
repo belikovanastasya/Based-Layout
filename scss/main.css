@@ -140,14 +140,37 @@ ul li a {
   margin-bottom: 74px; }
 
 .skills {
-  height: 580px;
-  background: url(../img/content-2-bg.png);
-  background-repeat: no-repeat;
-  background-position: center; }
+  height: 100%; }
+
+.skills h2 {
+  margin-top: 72px;
+  margin-bottom: 37px;
+  color: #e74c3c;
+  font-family: "Open Sans", sans-serif;
+  font-size: 50px;
+  margin-top: 0;
+  padding-top: 72px;
+  color: white; }
+
+.indicator {
+  margin-top: 70px; }
+  .indicator p {
+    color: white;
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: 26px; }
+
+.parallax-window {
+  height: 580px; }
 
 .indicatorContainerWrap {
   position: relative;
   display: inline-block; }
+
+.portfolio {
+  height: 400px; }
 
 .newsletter {
   height: 100%;
