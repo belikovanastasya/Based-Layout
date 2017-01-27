@@ -170,13 +170,39 @@ ul li a {
   display: inline-block; }
 
 .portfolio {
-  height: 400px; }
+  height: 100%; }
+  .portfolio h2 {
+    margin-top: 72px;
+    margin-bottom: 37px;
+    color: #e74c3c;
+    font-family: "Open Sans", sans-serif;
+    font-size: 50px; }
+
+.tabs {
+  margin-top: 64px;
+  margin-bottom: 60px; }
+  .tabs li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px; }
+    .tabs li a {
+      color: #707070;
+      font-size: 20px; }
+      .tabs li a:hover {
+        color: #e74c3c; }
+
+.item ul {
+  list-style: none;
+  padding: 0; }
+  .item ul li {
+    display: inline-block; }
 
 .newsletter {
   height: 100%;
   background: #2c3e50;
   padding-top: 30px;
-  padding-bottom: 60px; }
+  padding-bottom: 60px;
+  margin-top: 66px; }
   .newsletter h3 {
     font-size: 30px;
     font-family: "Open Sans", sans-serif;

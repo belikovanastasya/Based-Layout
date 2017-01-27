@@ -163,6 +163,9 @@ nav{
 			margin-top: 26px;
 		}
 	}
+
+
+
 .parallax-window{
 	height: 580px;
 }
@@ -171,15 +174,49 @@ nav{
     display: inline-block;
 }
 
-
 .portfolio{
-	height: 400px;
+	height: 100%;
+	h2{
+		@include margin-h
+	}
+	
 }
+.tabs {
+margin-top: 64px;
+margin-bottom: 60px;
+li{
+list-style: none;
+display: inline-block;
+margin-left: 10px;
+
+a{
+	color: $fontcolor;
+	font-size: 20px;
+
+			&:hover{
+				color:$maincolor;
+				
+			}
+}
+
+}
+}
+.item ul{
+	list-style: none;
+	padding: 0;
+	li{
+		display: inline-block;
+	}
+}
+
+
+
 .newsletter{
 	height: 100%;
 	background: $mainbg;
 	padding-top: 30px;
-	padding-bottom: 60px;	 
+	padding-bottom: 60px;
+	margin-top: 66px;	 
 	h3{
 		font-size: 30px;
 		font-family: $mainfont;

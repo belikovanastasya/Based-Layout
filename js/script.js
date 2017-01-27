@@ -73,6 +73,47 @@ $(window).on('scroll', function(){
 
 
 })
+$("#all").click(function(e){
+    e.preventDefault();
+    
+    $(".item li").show(3000);
+  
+    
+})
+
+
+$("#app").click(function(e){
+    e.preventDefault();
+    $(".app").siblings().hide(1000);
+    $(".app").show(3000);
+    
+})
+$("#illustr").click(function(e){
+    e.preventDefault();
+    $(".illustr").siblings().hide(1000);
+    $(".illustr").show(3000);
+    
+    
+    
+})
+
+$("#logowork").click(function(e){
+    e.preventDefault();
+    $(".logowork").siblings().hide(1000);
+    $(".logowork").show(3000);
+    
+    
+    
+})
+$("#photowork").click(function(e){
+    e.preventDefault();
+    $(".photowork").siblings().hide(1000);
+    $(".photowork").show(3000);
+    
+    
+    
+})
+
 
 
 })
