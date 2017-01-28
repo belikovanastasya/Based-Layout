@@ -84,14 +84,14 @@ $("#all").click(function(e){
 
 $("#app").click(function(e){
     e.preventDefault();
-    $(".app").siblings().hide(1000);
-    $(".app").show(3000);
+    $(".app").siblings().hide(200);
+    $(".app").show(2000);
     
 })
 $("#illustr").click(function(e){
     e.preventDefault();
-    $(".illustr").siblings().hide(1000);
-    $(".illustr").show(3000);
+    $(".illustr").siblings().hide(200);
+    $(".illustr").show(2000);
     
     
     
@@ -99,16 +99,16 @@ $("#illustr").click(function(e){
 
 $("#logowork").click(function(e){
     e.preventDefault();
-    $(".logowork").siblings().hide(1000);
-    $(".logowork").show(3000);
+    $(".logowork").siblings().hide(200);
+    $(".logowork").show(2000);
     
     
     
 })
 $("#photowork").click(function(e){
     e.preventDefault();
-    $(".photowork").siblings().hide(1000);
-    $(".photowork").show(3000);
+    $(".photowork").siblings().hide(200);
+    $(".photowork").show(2000);
     
     
     

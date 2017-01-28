@@ -201,7 +201,9 @@ a{
 
 }
 }
-.item ul{
+.item {
+min-height: 320px;
+ul{
 	list-style: none;
 	padding: 0;
 	li{
@@ -209,7 +211,7 @@ a{
 	}
 }
 
-
+}
 
 .newsletter{
 	height: 100%;

@@ -191,11 +191,13 @@ ul li a {
       .tabs li a:hover {
         color: #e74c3c; }
 
-.item ul {
-  list-style: none;
-  padding: 0; }
-  .item ul li {
-    display: inline-block; }
+.item {
+  min-height: 320px; }
+  .item ul {
+    list-style: none;
+    padding: 0; }
+    .item ul li {
+      display: inline-block; }
 
 .newsletter {
   height: 100%;
