@@ -114,6 +114,16 @@ $("#photowork").click(function(e){
     
 })
 
+$("#navmenubtn").click(function(){
+    $("nav ul").toggleClass("active-menu");
+   $("nav").toggleClass("active-nav");
+   $(".smallbtn").toggleClass("active-btn")
+
+})
+
+
+
+
 
 
 })

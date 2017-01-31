@@ -29,15 +29,54 @@ nav {
     nav li:first-child {
       margin-left: 0; }
 
-.logo {
-  float: left;
-  padding-top: 15px; }
-
 ul li a {
   color: #5f758c; }
   ul li a:hover {
     color: white;
     text-decoration: none; }
+
+.active-menu {
+  width: 100%;
+  margin-top: 0px;
+  height: 90%; }
+  .active-menu li {
+    display: block;
+    width: 100%;
+    margin-left: 0px;
+    border-bottom: 2px groove #5f758c; }
+
+.active-nav {
+  height: auto;
+  background: #2c3e50;
+  top: 0; }
+
+.active-btn {
+  position: absolute;
+  top: 0;
+  right: 10px; }
+
+.logo {
+  float: left;
+  padding-top: 15px; }
+
+.menu {
+  height: 46px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  background: #e74c3c;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  margin-left: 15px;
+  display: none;
+  margin-top: 10px; }
+
+.fa-2x {
+  font-size: 1.5em; }
 
 .smallbtn {
   height: 46px;
@@ -92,13 +131,15 @@ ul li a {
   width: 47px;
   height: 7px; }
 
+.about img {
+  width: 100%;
+  height: auto; }
 .about h2 {
   margin-top: 72px;
   margin-bottom: 37px;
   color: #e74c3c;
   font-family: "Open Sans", sans-serif;
   font-size: 50px; }
-
 .about h3 {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
@@ -141,6 +182,9 @@ ul li a {
 
 .skills {
   height: 100%; }
+  .skills img {
+    width: 100%;
+    height: auto; }
 
 .skills h2 {
   margin-top: 72px;
@@ -171,6 +215,9 @@ ul li a {
 
 .portfolio {
   height: 100%; }
+  .portfolio img {
+    width: 100%;
+    height: auto; }
   .portfolio h2 {
     margin-top: 72px;
     margin-bottom: 37px;
@@ -236,6 +283,9 @@ ul li a {
 
 .team {
   padding-bottom: 72px; }
+  .team img {
+    width: 100%;
+    height: auto; }
   .team h2 {
     margin-top: 72px;
     margin-bottom: 37px;
@@ -276,18 +326,98 @@ ul li a {
     margin-left: 40px; }
 
 @media (max-width: 1200px) {
+  header {
+    background: url(../img/banner-sm.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px; }
+
   nav li {
     margin-left: 20px; } }
 @media (max-width: 992px) {
+  header {
+    background: url(../img/banner-sm.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px; }
+
   nav li {
-    display: block;
     margin-left: 0;
-    display: none; } }
-@media (max-width: 768px) {
-  .newsletter button {
-    margin-top: 15px; } }
-@media (max-width: 320px) {
+    display: none; }
+
+  .menu {
+    display: block; }
+
+  .skills .parallax-window {
+    height: 100%; }
+
   .newsletter input {
-    width: 300px; } }
+    width: 100%;
+    margin-right: 0px; } }
+@media (max-width: 768px) {
+  header {
+    background: url(../img/banner-sm.png);
+    background-repeat: no-repeat;
+    background-size: center;
+    height: 400px; }
+
+  .newsletter button {
+    margin-top: 15px; }
+
+  .newsletter input {
+    width: 100%;
+    margin-right: 0px; }
+
+  nav ul {
+    margin-left: 0px; } }
+@media (max-width: 412px) {
+  header {
+    background: url(../img/banner-sm.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px; }
+
+  nav {
+    bottom: -65px; }
+    nav ul {
+      margin-left: 0px; }
+
+  .smallbtn {
+    width: auto;
+    height: auto; } }
+@media (max-width: 320px) {
+  header {
+    background: url(../img/banner-sm.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px; }
+
+  .newsletter input {
+    width: 100%;
+    margin-right: 0px; }
+
+  nav {
+    bottom: -65px; }
+
+  nav ul {
+    margin-left: 0px; }
+
+  .smallbtn {
+    width: auto;
+    height: auto; }
+
+  .skills .parallax-window {
+    height: 100%; }
+
+  .contact p {
+    margin-left: 15px;
+    margin-bottom: 15px; }
+  .contact ul {
+    width: 100%;
+    padding-left: 0px; }
+    .contact ul li {
+      margin-left: 30px; }
+    .contact ul li:first-child {
+      margin-left: 15px; } }
 
 /*# sourceMappingURL=main.css.map */
