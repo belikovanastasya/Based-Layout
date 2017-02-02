@@ -75,7 +75,7 @@ $(window).on('scroll', function(){
 })
 $("#all").click(function(e){
     e.preventDefault();
-    
+    $(".item li").hide(200);
     $(".item li").show(3000);
   
     

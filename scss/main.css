@@ -2,6 +2,10 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #707070; }
 
+button {
+  border: none;
+  outline: none; }
+
 header {
   height: 764px;
   background: url(../img/banner-1600.png);
@@ -37,12 +41,14 @@ ul li a {
 
 .active-menu {
   width: 100%;
-  margin-top: 0px;
-  height: 90%; }
+  margin-top: 10px;
+  height: 100%;
+  margin-bottom: 40px; }
   .active-menu li {
     display: block;
     width: 100%;
     margin-left: 0px;
+    margin-top: 20px;
     border-bottom: 2px groove #5f758c; }
 
 .active-nav {
@@ -57,7 +63,7 @@ ul li a {
 
 .logo {
   float: left;
-  padding-top: 15px; }
+  padding-top: 10px; }
 
 .menu {
   height: 46px;
@@ -369,38 +375,45 @@ ul li a {
     margin-right: 0px; }
 
   nav ul {
-    margin-left: 0px; } }
+    margin-left: 0px; }
+    nav ul li {
+      padding-left: 10px; } }
 @media (max-width: 412px) {
   header {
-    background: url(../img/banner-sm.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 150px; }
+    background: none;
+    height: 65px; }
 
   nav {
-    bottom: -65px; }
+    top: 0;
+    position: relative; }
     nav ul {
       margin-left: 0px; }
+      nav ul li {
+        padding-left: 10px; }
 
   .smallbtn {
     width: auto;
     height: auto; } }
 @media (max-width: 320px) {
   header {
-    background: url(../img/banner-sm.png);
+    /* background: url(../img/banner-sm.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 150px; }
+    background-size: cover; */
+    background: none;
+    height: 65px; }
 
   .newsletter input {
     width: 100%;
     margin-right: 0px; }
 
   nav {
-    bottom: -65px; }
+    position: relative;
+    top: 0; }
 
   nav ul {
     margin-left: 0px; }
+    nav ul li {
+      padding-left: 10px; }
 
   .smallbtn {
     width: auto;
